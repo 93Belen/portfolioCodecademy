@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Syncopate&display=swap');
+
+
+:root {
+    --background:  hsl(23, 31%, 89%);
+    --blue: hsl(205, 10%, 55%);
+    --lightblue: hsl(204, 10%, 72%);
+    --white: hsl(23, 31%, 95%);
+    --green: hsl(56, 32%, 26%);
+    --brown: hsl(23, 34%, 67%);
+    --black: hsl(204, 10%, 10%);
+}
+
+
+
+
+h1{
+    color: var(--brown);
+    font-size: 3vw;
+    position: relative;
+    top: 45vw;
+    left: 75vw;
+}
+#goback{
+    color: var(--green);
+    position: relative;
+    top: -9vw;
+    left: 4.7vw;
+    font-size: 2vw;
+    width: 10vw;
+}
+#nav-goback :hover{
+    transform: translate(-1vw);
+    transition: transform 1s;
+}
+svg{
+    width: 5vw;
+    position: relative;
+    top: -11.7vw;
+    left: 2.7vw;
+}
+h2{
+    color: var(--blue);
+    width: 35vw;
+    font-size: 3.8vw;
+    text-align: left;
+    left: 4.5vw;
+}
+form{
+    text-align: center;
+    width: 40vw;
+    position: relative;
+    top: -11vw;
+    left: 10vw;
+}
+input, textarea{
+    margin: 1vw 0;
+    font-family: 'Poiret One';
+    color: var(--green);
+    width: 30vw;
+    background-color: var(--white);
+    font-size: 1.5vw;
+    border: none;
+    border-radius: 0.1px;
+}
+input{
+    height: 3vw;
+}
+textarea{
+    height: 12vw;
+}
+button{
+    background-color: var(--green);
+    color: var(--white);
+    font-family: 'Poiret One';
+    width: 9.5vw;
+    height: 2.7vw;
+    font-size: 1.8vw;
+}
+#resume{
+    color: var(--blue);
+    font-size: 2vw;
+    position: relative;
+    left: 10vw;
+    top: -7vw;
+}
+#resume span{
+    color: var(--black);
+}
+#logo{
+    position: absolute;
+    top: 7vw;
+    left: 85vw;
+}
+img{
+    opacity: 0.15;
+    height: 25vw;
+    position: absolute;
+    top: 18vw;
+    left: 50vw;
+}
